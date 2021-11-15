@@ -31,5 +31,7 @@ function gotResult(error,results){
     if(error){
 console.log(error);
     }
-    console.log(results);
+    else{console.log(results);
+    }
+    
 }
